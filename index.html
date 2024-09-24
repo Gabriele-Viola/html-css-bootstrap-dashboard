@@ -8,6 +8,8 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <!-- font aweson -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- Bootstrap CSS v5.2.1 -->
         <link
@@ -48,7 +50,46 @@
                 </div>
               </nav>
         </header>
-        <main></main>
+        <main>
+            <div class="container">
+
+                    <table class="table table-hover">
+                        <thead>
+                            <tr class="table-">
+                                <th>Titolo</th>
+                                <th>Data Prestito</th>
+                                <th>Stato</th>
+                                <th>Azioni</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table- table-secondary">
+                                <td class="table-secondary">I pilastri della terra</td>
+                                <td class="table-secondary">-</td>
+                                <td class="table-secondary"> 
+                                    <span class="badge text-bg-success">Disponibile</span>
+                                </td>
+                                <td class="table-secondary">
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <button class="btn btn-primary d-inline" type="button">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </button>
+                                        <button class="btn btn-primary d-inline" type="button">
+                                            <i class="fa-solid fa-trash"></i>
+                                        </button>
+                                      </div>
+                                </td>
+                            </tr>
+                            <tr class="table-">
+                                <td class="table">I pilastri della terra</td>
+                                <td class="table">-</td>
+                                <td class="table"> badge disponibile</td>
+                                <td class="table">modifica / elimina</td>
+                            </tr>
+                        </tbody>
+                      </table>
+            </div>
+        </main>
         <footer>
             <!-- place footer here -->
         </footer>
