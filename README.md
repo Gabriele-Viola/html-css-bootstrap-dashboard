@@ -1,0 +1,2 @@
+## DashBoard
+In questa esercitazione ho approfondito l'uso di **Bootstrap** per creare un'ipotetica dashboard per la gestione di una libreria. La dashboard permette di visualizzare la lista dei libri con le relative informazioni, indicando se sono disponibili o in prestito. Include anche una pagina con i dati degli utenti, per monitorare a chi sono stati prestati i libri e i relativi periodi. Inoltre, è presente una pagina per l'aggiunta di nuovi utenti o libri.
